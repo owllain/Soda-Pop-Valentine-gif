@@ -1,0 +1,21 @@
+{
+  "assets": {
+    "tracks": [
+      {
+        "title": "Soda Pop (Spanish)",
+        "artist": "Saja Boys",
+        "path": "/-raw-music/Soda Pop (Spanish).mp3"
+      },
+      {
+        "title": "Soda Pop",
+        "artist": "Saja Boys",
+        "path": "/-raw-music/Soda Pop - Saja Boys.mp3"
+      },
+      {
+        "title": "Your Idol",
+        "artist": "Saja Boys",
+        "path": "/-raw-music/Your Idol - Saja Boys.mp3"
+      }
+    ]
+  }
+}
