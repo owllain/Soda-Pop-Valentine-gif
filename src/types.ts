@@ -8,7 +8,7 @@ export interface Memory {
   caption: string;
   date: string;
   location: string;
-  category: 'FIRST DATE' | 'TRIP' | 'ANNIVERSARY' | 'CASUAL' | 'ADVENTURE' | 'FUTURE' | 'WORK' | 'TRAVEL';
+  category: 'FIRST DATE' | 'TRIP' | 'ANNIVERSARY' | 'CASUAL' | 'ADVENTURE' | 'FUTURE' | 'WORK' | 'TRAVEL' | 'TOUR';
 }
 
 export interface FloatingElementProps {

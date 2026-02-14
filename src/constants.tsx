@@ -9,7 +9,7 @@ export const MEMORIES: Memory[] = [
     caption: 'Haciendo la tradición del amarre, y funcionó. ¡Tenemos boda, tenemos boda!',
     date: '',
     location: 'Zarcero, Alajuela',
-    category: 'ANNIVERSARY'
+    category: 'TOUR'
   },
   {
     id: '2',
