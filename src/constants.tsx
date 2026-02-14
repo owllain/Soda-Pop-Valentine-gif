@@ -5,56 +5,56 @@ export const MEMORIES: Memory[] = [
   {
     id: '1',
     image: '/-raw-images/-raw-photoshoots/WhatsApp Image 2026-02-12 at 8.46.25 PM.jpeg',
-    title: 'Chilis & Nervous Laughs',
-    caption: 'Poner peros y fingir demencia es mi especialidad. Pero me animé a pedirte que fueras mi novia. ¿Mi parte favorita? Por supuesto los besos y andar altanero.',
-    date: 'Noviembre 2023',
-    location: 'Curridabat, SJ',
-    category: 'FIRST DATE'
+    title: 'The Love Tie',
+    caption: 'Haciendo la tradición del amarre, y funcionó. ¡Tenemos boda, tenemos boda!',
+    date: '',
+    location: 'Zarcero, Alajuela',
+    category: 'ANNIVERSARY'
   },
   {
     id: '2',
     image: '/-raw-images/-raw-photoshoots/WhatsApp Image 2026-02-12 at 8.46.25 PM (1).jpeg',
-    title: 'Working Together',
-    caption: 'Trabajar juntos. Snacks guardados, postits ocultos, y unos besos a escondidas.',
-    date: 'Agosto 2023',
-    location: 'Guadalupe, SJ',
-    category: 'WORK'
+    title: 'Our Furry Family',
+    caption: 'Creando recuerdos con dos hermosas perrijas, ¡haciendo crecer la familia!',
+    date: '',
+    location: 'Paseo Colón, San José',
+    category: 'CASUAL'
   },
   {
     id: '3',
     image: '/-raw-images/-raw-photoshoots/WhatsApp Image 2026-02-12 at 8.52.41 PM (4).jpeg',
-    title: 'Dynamic Duos',
-    caption: 'Haciendo caras traviesas y jugando entre nosotros... nuestra dinámica se ha convertido en mi rutina preferida.',
-    date: 'Noviembre 2024',
-    location: 'Rancho Redondo, SJ',
-    category: 'CASUAL'
+    title: 'Sun & Sand',
+    caption: 'Playa, mar y sol; memorias juntos que se acumulan como granos de arena.',
+    date: '',
+    location: 'Playa Hermosa, Guanacaste',
+    category: 'TRAVEL'
   },
   {
     id: '4',
     image: '/-raw-images/-raw-photoshoots/WhatsApp Image 2026-02-12 at 8.52.41 PM (1).jpeg',
-    title: 'Warmth in the Cold',
-    caption: 'No importa qué tanto frío haga, a tu lado siempre siento calidez.',
-    date: '2 de Agosto 2025',
-    location: 'Volcán Irazú, Cartago',
-    category: 'TRIP'
+    title: 'Adventure Time',
+    caption: 'Un tour de memorias inolvidables.',
+    date: '',
+    location: 'Parque Nacional Tapantí, Cartago',
+    category: 'ADVENTURE'
   },
   {
     id: '5',
     image: '/-raw-images/-raw-photoshoots/WhatsApp Image 2026-02-12 at 8.52.41 PM.jpeg',
-    title: 'Exploring Together',
-    caption: 'Yo estaba acostumbrado a estar encerrado, pero contigo siempre me dan ganas de explorar y vivir.',
-    date: '2 de Agosto 2025',
-    location: 'Sanatorio Durán, Cartago',
-    category: 'ADVENTURE'
+    title: 'Finally the Ring',
+    caption: 'Siete años después, ¡pero finalmente hay anillo!',
+    date: '',
+    location: 'Hatillo, San José',
+    category: 'ANNIVERSARY'
   },
   {
     id: '6',
     image: '/-raw-images/-raw-photoshoots/WhatsApp Image 2026-02-12 at 8.52.40 PM (1).jpeg',
-    title: 'Building Our Story',
-    caption: 'Construir memorias juntos es mi actividad favorita.',
-    date: '25 de Noviembre',
-    location: 'Islas de Tierra Bomba, COL',
-    category: 'TRAVEL'
+    title: 'Inner Feelings',
+    caption: '¡Alegrón de burro! Pensé que acá llegaba el anillo.',
+    date: '',
+    location: 'San Carlos, Alajuela',
+    category: 'TRIP'
   }
 ];
 

@@ -43,8 +43,8 @@ export const CassettePlayer: React.FC<CassettePlayerProps> = ({
     // Sincronización con el tema Evil
     useEffect(() => {
         if (isEvil) {
-            // Cambiar a Your Idol (Índice 2)
-            setCurrentTrackIndex(2);
+            // Cambiar a Your Idol (Índice 4)
+            setCurrentTrackIndex(4);
         } else {
             // Cambiar a Soda Pop Spanish (Índice 0)
             setCurrentTrackIndex(0);

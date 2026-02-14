@@ -189,7 +189,7 @@ const MemorySlideshow: React.FC<MemorySlideshowProps> = ({ onContinue }) => {
             </div>
             <div className="text-center space-y-4 relative z-10">
               <div className="text-pop-blue font-black text-xs tracking-widest uppercase bg-white/10 py-1 px-3 rounded-full inline-block">
-                {selectedMemory.date} • {selectedMemory.location}
+                {selectedMemory.date ? `${selectedMemory.date} • ` : ''}{selectedMemory.location}
               </div>
               <h3 className="text-3xl font-display font-bold text-white drop-shadow-md">{selectedMemory.title}</h3>
               <div className="h-[2px] w-12 bg-white/30 mx-auto rounded-full"></div>

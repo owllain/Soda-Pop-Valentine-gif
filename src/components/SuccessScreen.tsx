@@ -11,7 +11,7 @@ const SuccessScreen: React.FC = () => {
                 angle: 60,
                 spread: 55,
                 origin: { x: 0 },
-                colors: ['#ffb7d5', '#a6e4ff', '#fff59e'],
+                colors: ['#a6e4ff', '#ffb7d5', '#fff59e'],
                 zIndex: 50
             });
             confetti({
@@ -19,7 +19,7 @@ const SuccessScreen: React.FC = () => {
                 angle: 120,
                 spread: 55,
                 origin: { x: 1 },
-                colors: ['#ffb7d5', '#a6e4ff', '#fff59e'],
+                colors: ['#a6e4ff', '#ffb7d5', '#fff59e'],
                 zIndex: 50
             });
         }, 800);
@@ -42,9 +42,9 @@ const SuccessScreen: React.FC = () => {
 
                 {/* Title Header */}
                 <div className="relative z-10 text-center mt-6 animate-bounce-slow">
-                    <div className="bg-white/80 backdrop-blur-md px-8 py-3 rounded-full border-4 border-pop-pink shadow-[0_8px_0_rgba(255,105,180,0.4)] inline-block transform rotate-[-2deg] mb-4 hover:scale-105 transition-transform">
-                        <h1 className="font-soda text-4xl sm:text-5xl md:text-6xl text-pop-pink drop-shadow-sm tracking-wide" style={{ WebkitTextStroke: '2px white', paintOrder: 'stroke fill' }}>
-                            SHE SAID YES!
+                    <div className="bg-white/80 backdrop-blur-md px-8 py-3 rounded-full border-4 border-pop-blue shadow-[0_8px_0_rgba(166,228,255,0.4)] inline-block transform rotate-[-2deg] mb-4 hover:scale-105 transition-transform">
+                        <h1 className="font-soda text-4xl sm:text-5xl md:text-6xl text-pop-blue drop-shadow-sm tracking-wide" style={{ WebkitTextStroke: '2px white', paintOrder: 'stroke fill' }}>
+                            HE SAID YES!
                         </h1>
                     </div>
                     <p className="font-handwriting text-2xl sm:text-3xl text-pop-purple rotate-2 drop-shadow-md">Best. Day. Ever. 💖</p>
@@ -56,7 +56,7 @@ const SuccessScreen: React.FC = () => {
                 {/* Main Visual: Celebration Polaroid + Saja Stickers */}
                 <div className="relative z-10 flex-1 flex items-center justify-center w-full min-h-[300px]">
                     {/* Cheerful Can */}
-                    <img src="/-raw-images/-raw-icons/image%20copy%205.png" className="absolute w-24 sm:w-32 h-auto -left-2 bottom-0 animate-can-rotate z-30 drop-shadow-2xl transform scale-x-[-1]" alt="Happy Can" />
+                    <img src="/-raw-images/-raw-icons/image%20copy%205.png" className="absolute w-24 sm:w-32 h-auto -left-2 bottom-0 animate-can-rotate z-30 drop-shadow-2xl filter hue-rotate-[180deg] transform scale-x-[-1]" alt="Happy Can" />
                     
                     {/* Floating Love Bubble */}
                     <img src="/-raw-images/-raw-icons/image.png" className="absolute w-16 sm:w-20 h-20 -right-2 top-10 animate-wiggle z-30 drop-shadow-xl" alt="Love Bubble" />

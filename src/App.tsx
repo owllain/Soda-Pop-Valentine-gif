@@ -22,7 +22,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className={`max-w-md mx-auto safe-h-screen relative flex flex-col overflow-hidden transition-colors duration-700 padding-safe-area ${isEvil ? 'evil-theme bg-pop-dark' : 'bg-pop-purple/10'}`}>
+    <div className={`max-w-md mx-auto safe-h-screen relative flex flex-col overflow-hidden transition-colors duration-700 padding-safe-area ${isEvil ? 'evil-theme bg-pop-dark' : 'bg-pop-blue/10'}`}>
       <FloatingElements />
 
       {/* Background Image Layer */}

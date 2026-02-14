@@ -117,7 +117,7 @@ const ProposalScreen: React.FC<ProposalScreenProps> = ({ onAccept, onBack }) => 
       <div className="w-full max-w-sm mx-auto space-y-4 z-20 pb-4 shrink-0">
         <button
           onClick={handleAccept}
-          className="group relative w-full h-24 rounded-full border-8 border-white shadow-[0_10px_40px_-10px_rgba(255,105,180,0.6)] overflow-hidden transition-transform hover:scale-105 active:scale-95 active:shadow-sm"
+          className="group relative w-full h-24 rounded-full border-8 border-white shadow-[0_10px_40px_-10px_rgba(166,228,255,0.6)] overflow-hidden transition-transform hover:scale-105 active:scale-95 active:shadow-sm"
         >
           {/* Background Animated Gradient */}
           <div className="absolute inset-0 holographic opacity-90 group-hover:opacity-100 transition-opacity duration-300" />
@@ -130,7 +130,7 @@ const ProposalScreen: React.FC<ProposalScreenProps> = ({ onAccept, onBack }) => 
 
           {/* Content */}
           <div className="relative z-10 flex items-center justify-center gap-4 h-full w-full">
-             <span className="font-soda text-4xl sm:text-5xl tracking-tight text-white drop-shadow-md" style={{ WebkitTextStroke: '2px #ff6b95', paintOrder: 'stroke fill', textShadow: '2px 2px 0px rgba(255,107,149,0.4)' }}>
+             <span className="font-soda text-4xl sm:text-5xl tracking-tight text-white drop-shadow-md" style={{ WebkitTextStroke: '2px #29b6f6', paintOrder: 'stroke fill', textShadow: '2px 2px 0px rgba(41,182,246,0.4)' }}>
               YES, YES!
              </span>
              <img src="/-raw-images/-raw-icons/image.png" className="w-12 h-12 object-contain animate-wiggle drop-shadow-md filter brightness-110" alt="Soda Love" />
@@ -152,7 +152,7 @@ const ProposalScreen: React.FC<ProposalScreenProps> = ({ onAccept, onBack }) => 
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
           <div className="relative w-full max-w-[320px] animate-pop-in">
             {/* Photocard Container with Gradient Border */}
-            <div className="p-1.5 rounded-3xl holographic shadow-[0_20px_50px_rgba(255,183,213,0.5)]">
+            <div className="p-1.5 rounded-3xl holographic shadow-[0_20px_50px_rgba(166,228,255,0.5)]">
               <div className="bg-white rounded-[20px] p-4 flex flex-col items-center gap-4 relative overflow-hidden">
                 {/* Decorative Bubbles & Sparkles inside Photocard */}
                 <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden rounded-[20px]">
@@ -183,14 +183,14 @@ const ProposalScreen: React.FC<ProposalScreenProps> = ({ onAccept, onBack }) => 
                   />
                   
                   {/* Status Sticker on Image */}
-                  <div className="absolute bottom-2 right-2 bg-pop-pink text-white font-pixel text-[8px] px-2 py-1 rounded-md shadow-md animate-pulse">
+                  <div className="absolute bottom-2 right-2 bg-pop-blue text-white font-pixel text-[8px] px-2 py-1 rounded-md shadow-md animate-pulse">
                     LIMITED
                   </div>
                 </div>
 
                 {/* Text "SAY YES!! is the only correct answer" */}
                 <div className="w-full py-1 flex flex-col items-center gap-1 z-10 text-center">
-                  <h3 className="font-soda text-4xl text-pop-pink text-outline-blue drop-shadow-[0_2px_0_rgba(255,255,255,1)] transform -rotate-1 leading-tight">
+                  <h3 className="font-soda text-4xl text-pop-blue text-outline-blue drop-shadow-[0_2px_0_rgba(255,255,255,1)] transform -rotate-1 leading-tight">
                     SAY YES!!
                   </h3>
                   <p className="font-display text-xs font-bold text-pop-purple uppercase tracking-tighter opacity-80 -mt-1 transform rotate-1">
